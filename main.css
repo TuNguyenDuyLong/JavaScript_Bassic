@@ -1,0 +1,20 @@
+/* h1 {color: blue; font-size: 30px;}
+.ThuocTinh {
+    color: green; font-size: 30px;
+}
+#DoiTuong {
+    color: orange; font-size: 20px;
+} */
+ :root {
+
+    --text_color: blue; font-size: 30px;
+}
+h1{
+        color: var(--text_color);
+}
+thead{
+    color: var(--text_color);
+}
+tr{ --doimau_color: green;
+    color:  var(--doimau_color)
+} 
